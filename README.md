@@ -10,35 +10,16 @@ A machine learning-based web application for predicting loan approval status usi
 - **Database Integration**: MySQL database for storing predictions
 - **Real-time Predictions**: Instant loan approval probability calculation
 
-## Project Structure
 
-```
-loan-approval/
-├── backend/
-│   ├── app.py                 # Flask API server
-│   ├── train.py              # Model training script
-│   ├── requirements.txt      # Python dependencies
-│   ├── env.example           # Environment variables template
-│   ├── model/
-│   │   ├── loan_approval_pipeline.pkl  # Trained model
-│   │   └── eval_metrics.json           # Model evaluation metrics
-│   └── db/
-│       ├── db_config.py      # Database configuration
-│       └── schema.sql        # Database schema
-├── frontend/
-│   ├── index.html            # Main web interface
-│   ├── script.js             # Frontend JavaScript
-│   └── styles.css            # CSS styling
-└── loan_approval_dataset.csv # Training dataset
-```
-
-## Setup Instructions
 
 ### Prerequisites
 
 - Python 3.8+
 - MySQL Server
 - Web browser
+## Setup Instructions
+
+
 
 ### Backend Setup
 
@@ -76,9 +57,9 @@ loan-approval/
 6. **Set up database:**
 
    - Create MySQL database
-   - Run the schema: `mysql -u root -p < db/schema.sql`
+   - open the phpmyadmin and run the schema.sql script and click "GO"
 
-7. **Train the model (if needed):**
+7. **Train the model :**
 
    ```bash
    python train.py
