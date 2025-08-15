@@ -1,0 +1,13 @@
+{
+  "no_of_dependents": 0.008151339309094566,
+  "income_annum": 0.017994362320164544,
+  "loan_amount": 0.03017370961396548,
+  "loan_term": 0.06014130846679966,
+  "cibil_score": 0.8154186830761543,
+  "residential_assets_value": 0.01672965337929012,
+  "commercial_assets_value": 0.014702906750484395,
+  "luxury_assets_value": 0.017052339963340563,
+  "bank_asset_value": 0.014888389874801188,
+  "education_ Not Graduate": 0.002104971937771616,
+  "self_employed_ Yes": 0.0026423353081336076
+}
